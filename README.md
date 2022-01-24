@@ -1,4 +1,6 @@
 # Python Projects for Beginners
+Project ideas:  
+  
     Mad Libs
     Guess the Number Game (computer)
     Guess the Number Game (user)
@@ -24,7 +26,6 @@
     Weather Program
     Code a Discord Bot with Python - Host for Free in the Cloud
     Space invaders game
-
-
-Source:
+  
+Source:  
 Wilkins, Jessica. “25 Python Projects for Beginners – Easy Ideas to Get Started Coding Python.” FreeCodeCamp.org, FreeCodeCamp.org, 13 Sept. 2021, https://www.freecodecamp.org/news/python-projects-for-beginners/. 
