@@ -7,6 +7,7 @@
 #    |    / \
 # ___|_________
 # 
+import random
 
 def hangman_print(error):
     gallows_pole  = "    _______   \n"
@@ -38,7 +39,28 @@ def hangman_print(error):
     else:
         gallows_pole = gallows_pole.format(head = " ", left_arm = " ", body_upper = " ",
         right_arm = " ", body_lower = " ",  left_leg = " ", right_leg = " ")
-    
+
     print(gallows_pole)
-hangman_print(546)
+
+def hangman():
+    let_used = []
+    word_let = []
+    word = (random.choice(open('words.txt').readlines())).upper()
+    for i in range(len(word) - 1):
+        word_let.append(word[i])
+    print("_ "*len(word))
+hangman()
+
+
+
+
+
+
+
+
+
+
+
+
+
 
