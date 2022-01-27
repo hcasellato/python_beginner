@@ -44,11 +44,14 @@ def hangman_print(error):
 
 def hangman():
     let_used = []
+    spaces = []
     word_let = []
     word = (random.choice(open('words.txt').readlines())).upper()
     for i in range(len(word) - 1):
         word_let.append(word[i])
-    print("_ "*len(word))
+        spaces.append("_")
+    print(spaces)
+
 hangman()
 
 
